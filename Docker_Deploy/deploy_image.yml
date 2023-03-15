@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image
+  hosts: all
+  tasks:
+    - name: Pull Calculator DevOps Image
+      docker_image:
+        name: kirankumarb5/spe
+        source: pull
