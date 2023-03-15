@@ -1,1 +1,1 @@
-172.16.139.16 ansible_user=kiran ansible_sudo_pass=kiran
+172.16.139.16 ansible_ssh_user=kiran ansible_ssh_pass=kiran
