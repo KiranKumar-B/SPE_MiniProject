@@ -1,9 +1,17 @@
 package org.example;
 
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ScientificCalculator {
+    private static final Logger logger = LogManager.getLogger(ScientificCalculator.class);
     public static void main(String[] args) {
+        logger.debug("Start_Program");
+        logger.debug("Statement_1");
+        logger.debug("Statement_2");
+        logger.debug("Statement_3");
+        logger.debug("Statement_4");
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
