@@ -1,1 +1,1 @@
-192.168.185.144 ansible_ssh_user=kiran ansible_ssh_pass=kiran
+192.168.185.144 ansible_ssh_user=u1 ansible_ssh_pass=u1
