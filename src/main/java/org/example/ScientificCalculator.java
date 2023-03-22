@@ -25,26 +25,39 @@ public class ScientificCalculator {
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
+                    logger.debug("Inside Square root case");
                     System.out.print("Enter a number: ");
                     double num1 = scanner.nextDouble();
+                    logger.debug("Accepted Input");
                     System.out.println("Square root of " + num1 + " is " + Math.sqrt(num1));
+                    logger.debug("Exiting square root case");
                     break;
                 case 2:
+                    logger.debug("Inside Factorial case");
                     System.out.print("Enter a number: ");
                     int num2 = scanner.nextInt();
+                    logger.debug("Accepted Input");
                     System.out.println("Factorial of " + num2 + " is " + factorial(num2));
+                    logger.debug("Exiting Factorial case");
                     break;
                 case 3:
+                    logger.debug("Inside natural log case");
                     System.out.print("Enter a number: ");
                     double num3 = scanner.nextDouble();
+                    logger.debug("Accepted Input");
                     System.out.println("Natural logarithm of " + num3 + " is " + Math.log(num3));
+                    logger.debug("Exiting natural log case");
                     break;
                 case 4:
+                    logger.debug("Inside power case");
                     System.out.print("Enter a number: ");
                     double num4 = scanner.nextDouble();
+                    logger.debug("Accepted Input");
                     System.out.print("Enter a power: ");
+                    logger.debug("Accepted power");
                     double pow = scanner.nextDouble();
                     System.out.println(num4 + " raised to the power of " + pow + " is " + Math.pow(num4, pow));
+                    logger.debug("Exiting power case");
                     break;
                 case 5:
                     System.out.println("Exiting the program...");
