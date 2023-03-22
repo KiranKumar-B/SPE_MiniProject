@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:17
 
 LABEL author = "Kiran Kumar B"
 LABEL version = 1.0
