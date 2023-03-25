@@ -38,7 +38,7 @@ public class ScientificCalculator {
                     int num2 = scanner.nextInt();
                     logger.debug("Accepted Input");
                     System.out.println("Factorial of " + num2 + " is " + factorial(num2));
-                    logger.debug("Exiting Factorial cases");
+                    logger.debug("Exiting Factorial case");
                     break;
                 case 3:
                     logger.debug("Inside natural log case");
